@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.hero {
+    width: 100vw;
+    position: relative;
+
+}
+
+.hero img {
+    width: 100vw;
+}
+
+h1 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Russo One', sans-serif;
+}
+
+h2 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+@media (min-width: 1000px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+    
+}

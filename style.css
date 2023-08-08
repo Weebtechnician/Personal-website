@@ -66,7 +66,8 @@ border-width:4px
 }
 
 .skills-container {
-display:inline-block;
+display:flex;
+flex-direction: column;
 gap:10px;
 width:60%;
 margin:auto
@@ -75,13 +76,6 @@ margin:auto
 .skills-container li {
 padding:4px;
 text-align:left
-}
-
-.skills-card {
-width:100%;
-margin:auto;
-position:relative;
-left:10%
 }
 
 .skills-container h2 {
@@ -122,7 +116,7 @@ display:flex;
 flex-direction:row;
 width:100vw;
 height:auto;
-justify-content:center;
+justify-content:space-around;
 margin-top:80px;
 align-items:start
 }
@@ -143,11 +137,9 @@ max-width:300px
 display:grid;
 grid-template-columns:1fr 1fr;
 grid-template-rows:auto;
-justify-content:center;
+justify-content:space-around;
 align-content:center;
-width:60%;
-margin:auto;
-column-gap:1rem
+width:90%;
 }
 
 .work {

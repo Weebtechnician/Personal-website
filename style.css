@@ -125,9 +125,14 @@ a {
         height: auto;
         justify-content: center;
         margin-top: 80px;
+        align-items: start;
     }
     #about-flex img {
         max-width: 20vw;
+    }
+
+    .about h2 {
+        margin-top: 80px;
     }
 
     .about p{

@@ -4,7 +4,8 @@ padding:0;
 text-align:center;
 font-family:'Ubuntu',sans-serif;
 background-color:#1f1f1f;
-color:#fff
+color:#fff;
+font-size: 1.3rem;
 }
 
 span {
@@ -74,8 +75,8 @@ margin:auto
 }
 
 .skills-container li {
-padding:4px;
-text-align:left
+text-align:left;
+line-height: 1.5
 }
 
 .skills-container h2 {
@@ -143,7 +144,7 @@ width:90%;
 }
 
 .skills-container h2 {
-    text-align: center;
+text-align: center;
 }
 
 .work {

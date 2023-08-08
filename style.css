@@ -142,13 +142,17 @@ align-content:center;
 width:90%;
 }
 
+.skills-container h2 {
+    text-align: center;
+}
+
 .work {
 grid-row:span 2
 }
 
 .skills-card {
-width:90%;
+width:50%;
 margin:auto;
-position:none
+position:none;
 }
 }

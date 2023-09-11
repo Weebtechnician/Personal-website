@@ -1,0 +1,5 @@
+.DS_Store
+.gitattributes
+.vscode/
+CNAME
+workspace.code-workspace
